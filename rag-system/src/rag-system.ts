@@ -1,10 +1,10 @@
-import { VectorStore, Document } from './vector-store.js';
+import { Document } from './vector-store.js';
 import { MemoryVectorStore } from './memory-vector-store.js';
 import { AzureOpenAIService } from './azure-openai.js';
 import { McpClient } from './mcp-client.js';
 
 export class RAGSystem {
-  private vectorStore: VectorStore | MemoryVectorStore;
+  private vectorStore: MemoryVectorStore;
   private openaiService: AzureOpenAIService;
   private mcpClient: McpClient;
   private useMemoryStore: boolean = false;

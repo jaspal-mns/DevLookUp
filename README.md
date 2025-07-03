@@ -1,6 +1,6 @@
 # DevLookUp - Documentation RAG System
 
-AI-powered documentation assistant using MCP servers, Azure OpenAI, and vector search for Dynatrace, Terraform, and New Relic documentation.
+AI-powered documentation assistant using MCP servers, Azure OpenAI, and in-memory vector search for Dynatrace, Terraform, and New Relic documentation.
 
 ## 🚀 Quick Start
 
@@ -46,10 +46,11 @@ AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4
 
 ## ✨ Features
 
-- **No external dependencies**: Uses in-memory vector store
-- **Multi-site search**: Dynatrace, Terraform, New Relic
-- **Semantic search**: Vector similarity matching
-- **Real-time chat**: Interactive Q&A interface
+- **Zero setup**: No external databases required
+- **In-memory vector store**: Fast semantic search with Azure OpenAI embeddings
+- **Multi-site search**: Dynatrace, Terraform, New Relic documentation
+- **Real-time chat**: Interactive console Q&A interface
+- **Intelligent responses**: Context-aware answers using retrieved documentation
 
 ## 📚 Supported Documentation
 
